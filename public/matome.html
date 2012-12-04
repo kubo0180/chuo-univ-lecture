@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>e-book mock</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <!-- index page -->
+  <div data-role="page" id="index">
+    <div data-role="header">
+      <h1>e-Book mock</h1>
+    </div>
+    <div data-role="content" class="lines">
+      <h2>もくじ</h2>
+      <ul data-role="listview" id="book_index">
+        <li><a href="#p1" data-icon="arrow-r" data-iconpos="right">はじめに：Webの仕組み … p.1</a></li>
+        <li><a href="#p2" data-icon="arror-r" data-iconpos="right">はじめてのHTML … p.2</a></li>
+        <li><a href="#p3" data-icon="arror-r" data-iconpos="right">jQuery Mobileってすごい… p.3</a></li>
+      </ul>
+    </div>
+    <div data-role="footer" data-position="fixed">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#p3" data-icon="arrow-l" class="prev_link">Prev</a></li>
+          <li><a href="#" data-icon="home">index</a></li>
+          <li><a href="#p1" data-icon="arrow-r" class="next_link">Next</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--/ index page -->
+
+  <!-- page no.1 -->
+  <div data-role="page" id="p1">
+    <div data-role="header">
+      <h1>e-Book mock</h1>
+    </div>
+    <div data-role="content" class="lines">
+      <h2>はじめに：Webの仕組み</h2>
+      <p>ざっくり言うと...</p>
+      <h3>フロントエンドとサーバサイド</h3>
+      <p>で分けられます。<br>今日のスコープは<b>フロントエンド</b></p>
+      <span>&nbsp;</span>
+      <h3>構成要素</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+    <div data-role="footer" data-position="fixed">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#index" data-icon="arrow-l" class="prev_link">Prev</a></li>
+          <li><a href="#index" data-icon="home">index</a></li>
+          <li><a href="#p2" data-icon="arrow-r" class="next_link">Next</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--/ page no.1 -->
+
+  <!-- page no.2 -->
+  <div data-role="page" id="p2">
+    <div data-role="header">
+      <h1>e-Book mock</h1>
+    </div>
+    <div data-role="content" class="lines">
+      <h2>に</h2>
+      <p>もう2</p>
+    </div>
+    <div data-role="footer" data-position="fixed">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#p1" data-icon="arrow-l" class="prev_link">Prev</a></li>
+          <li><a href="#index" data-icon="home">index</a></li>
+          <li><a href="#3" data-icon="arrow-r" class="next_link">Next</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--/ page no.2 -->
+
+  <!-- page no.3 -->
+  <div data-role="page" id="p3">
+    <div data-role="header">
+      <h1>e-Book mock</h1>
+    </div>
+    <div data-role="content" class="lines">
+      <h2>さいごに</h2>
+      <p>特になにもありません.</p>
+    </div>
+    <div data-role="footer" data-position="fixed">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#p2" data-icon="arrow-l" class="prev_link">Prev</a></li>
+          <li><a href="#index" data-icon="home">index</a></li>
+          <li><a href="#index" data-icon="arrow-r" class="next_link">Next</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--/ page no.2 -->
+
+</body>
+
+</html>

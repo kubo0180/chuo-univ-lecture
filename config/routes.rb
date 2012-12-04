@@ -1,5 +1,4 @@
 ChuoU::Application.routes.draw do
-  get '/hoge' => redirect('https://www.clap.jpn.com/teaser',  status: 301)
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
