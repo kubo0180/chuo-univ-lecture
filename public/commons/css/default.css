@@ -1,0 +1,15 @@
+html { overflow-y: scroll; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; }
+table { border-collapse: collapse; border-spacing: 0; }
+caption, th { text-align: left; }
+q:before, q:after { content: ''; }
+object, embed { vertical-align: top; }
+hr, legend { display: none; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+img, abbr, acronym, fieldset { border: 0; }
+img{vertical-align:bottom;}
+li { list-style-type: none; }
+/*--- default */
+body { background:url(../img/bg.gif) #C0C8A1; color: #000; font-size: 62.5%; font-family: "ƒƒCƒŠƒI", "Meiryo", verdana, "ƒqƒ‰ƒMƒmŠpƒS Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "‚l‚r ‚oƒSƒVƒbƒN", "MS PGothic", Sans-Serif; line-height: 1.5; }
+* html body {	/* for IF6 */ font-family: "‚l‚r ‚oƒSƒVƒbƒN", "MS PGothic", Sans-Serif; }

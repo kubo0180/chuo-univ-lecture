@@ -1,0 +1,25 @@
+
+#contents{margin:0 auto; width:1000px;}
+
+/* -----------------------------------------------------------
+/* #gNav
+----------------------------------------------------------- */
+#col02 #page{position: relative; /zoom: 1;}
+#col02 #page:after {display: block;	clear: both;	content: "";}
+
+#col01 #gNav {overflow: hidden; position: relative; /zoom: 1;}
+* html #gNav {height: 1%;}
+#gNav:after {display: block;	clear: both;	content: "";}
+#gNav li {float: left;}
+
+#col02 #sub{position: relative; float:right;}
+
+
+/* -----------------------------------------------------------
+	#footer
+		フッター
+----------------------------------------------------------- */
+#footer {width:100%; clear:both;}
+.f_link{}
+#footer ul li {display: inline;}
+#footer .copyright {text-align: center;}
