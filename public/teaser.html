@@ -47,15 +47,25 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </script>
 </head>
 <body id="col01" class="index">
+<!-- fb_button -->
+<div id="fb-root"></div>
+<script>(function(d,  s,  id) {
+    var js,  fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js,  fjs);
+    }(document,  'script',  'facebook-jssdk'));
+</script>
+</script>
+<!-- /fb_button -->
 <div id="page">
 <!-- / #header -->
 <div id="header">
 <div id="sns">
 <ul class="socialButton">
-    <li><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.clap.jpn.com%2F&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=226147657516409" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe></li>
-    <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://www.clap.jpn.com/" data-text="映画好きのためのドラマチックマッチングサービス「Clap!」" data-lang="ja">ツイート</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </li>
+<li><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://www.clap.jpn.com/" data-text="映画好きのためのドラマチックマッチングサービス「Clap!」" data-lang="ja">ツイート</a><script>!function(d, s, id){var js, fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js, fjs);}}(document, "script", "twitter-wjs");</script></li>
+<li><div class="fb-like" data-href="https://www.clap.jpn.com/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div></li>
 </ul>
 </div>
 <div id="sitelogo"><h1 id="sitelogo"><span>Clap!</span></h1></div>
