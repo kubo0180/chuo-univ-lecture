@@ -1,0 +1,18 @@
+.main {
+  background-image: url("./imgs/bg.jpg");
+  background-repeat: repeat;
+}
+
+img {
+  margin-right:7px;
+}
+
+.likes {
+  margin: 5px;
+  font-size: 2em;
+}
+
+.like-icon {
+  margin-left: 15px;
+}
+
